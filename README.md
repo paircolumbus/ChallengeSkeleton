@@ -7,10 +7,10 @@ Please leave a brief description of the challenge here. It should be no more tha
 
 ## Instructions
 Two sentences followed by a list is recommended here.  
-1. Run a command to see your failing tests  
-2. Review the tests and get an understanding of the preferred functionality  
-3. Fix the tests  
-4. You will know you're done when the tests are green!   
+1. ex. _Run a command to see your failing tests_  
+2. ex. _Review the tests and get an understanding of the preferred functionality_  
+3. ex. _Fix the tests_  
+4. ex. _You will know you're done when the tests are green!_   
 
 __NOTE:__ Important steps or reminders should be noticeable.  
 
