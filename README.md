@@ -1,26 +1,36 @@
-# ChallengeSkeleton
+# ASP.NET Core Introduction
 
-__Skill Level:__ (Beginner, Intermediate, Advanced)  
-__Time Limit:__ (limit challenges to 2 hours max)  
+__Skill Level:__ Beginner  
+__Time Limit:__ 10 minutes
 
-Please leave a brief description of the challenge here. It should be no more than a paragraph long or 2-3 sentences.
+This is an introductory challenge to get you acquainted with the ASP.NET Core MVC (Model View Controller) web application design pattern in Visual Studio.  Using the template provided, you will simply implement the functionality needed to navigate the user from the Controller to the View.
 
 ## Instructions
-Two sentences followed by a list is recommended here.  
-1. ex. _Run a command to see your failing tests_  
-2. ex. _Review the tests and get an understanding of the preferred functionality_  
-3. ex. _Fix the tests_  
-4. ex. _You will know you're done when the tests are green!_   
+To open the project, open the project's .sln file in Visual Studio (must be installed).
+The project is located at "./CoreIntroduction/CoreIntroduction.sln".
 
-__NOTE:__ Important steps or reminders should be noticeable.  
+The application should navigate without error between the following Views  
+1. _Index_  
+2. _About_  
+3. _Contact_  
+4. _Privacy_   
+
+__NOTE:__ Don't overthink this challenge.  We simply need to address any NotImplementedExceptions with the proper code to navigate to a the View.
+
+__NOTE:__ Starting your web application running is really simple with the built in IIS Server.  All you need to do is click the button on the toolbar indicated below:
+
+![Image not available](HowToStartServer.PNG "Click here!")
 
 ## Things to think about
-Consider adding a 'things to think about' section with a list of questions to help encourage thought about a particular idea or method.
-- What sort of tests would you add to this challenge?
-- What happens if this then that?
+
+- How do the View names compare to the current URL?
+- Further, what is the frameworks's default View?
+- What is the framework doing for us? (Hint: a lot!)
+- What is the purpose of the controller?
+- What component of the MVC pattern is missing from this challenge?
+
 
 ## Resources
-- [Please list]()
-- [links]() 
-- [to help resources]()
-- [here!]()
+- [Download MS Visual Studio IDE Community 2017](https://visualstudio.microsoft.com)
+- [MSDocs: Add a View](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/adding-view?view=aspnetcore-2.2&tabs=visual-studio)
+
